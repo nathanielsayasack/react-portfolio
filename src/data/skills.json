@@ -21,14 +21,18 @@
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
+    "imageSrc": "skills/Javascript.png"
   },
   {
     "title": "Azure DevOps",
-    "imageSrc": "skills/azuredevops.png"
+    "imageSrc": "skills/Azure.png"
   },
   {
     "title": "Leaflet",
     "imageSrc": "skills/leaflet.png"
+  },
+{
+    "title": "Miro",
+    "imageSrc": "skills/miro.png"
   }
 ]
