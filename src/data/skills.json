@@ -21,7 +21,7 @@
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/Javascript.jpg"
+    "imageSrc": "assets/skills/Javascript.jpg"
   },
   {
     "title": "Azure DevOps",
@@ -29,7 +29,7 @@
   },
   {
     "title": "Leaflet",
-    "imageSrc": "skills/leaflet.png"
+    "imageSrc": "assets/skills/leaflet.png"
   },
 {
     "title": "Miro",
