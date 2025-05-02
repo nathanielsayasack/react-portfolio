@@ -10,34 +10,40 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.JPG")}
-          alt="Me posing in front of a walkway"
+          alt="A profile view in a scenic walkway"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/bulbIcon.png")} alt="bulb icon" />
+            <img src={getImageUrl("about/bulbIcon.png")} alt="Bulb icon" />
             <div className={styles.aboutItemText}>
               <h3>Product Strategy</h3>
               <p>
-              I define clear product goals and roadmaps by identifying user needs, aligning with business objectives, and collaborating with stakeholders to deliver impactful solutions.
+                I create clear product goals and roadmaps by identifying user
+                needs, aligning with objectives, and collaborating with stakeholders.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/barChart.png")} alt="bar chart icon" />
+            <img src={getImageUrl("about/barChart.png")} alt="Bar chart icon" />
             <div className={styles.aboutItemText}>
-              <h3>User Research & Data-Driven Decisions</h3>
+              <h3>User Research & Feedback</h3>
               <p>
-                I conduct user research and analyze data to guide product direction—translating insights into actionable features and continuously iterating based on feedback.
+                I gather insights from users, analyze data, and shape features to
+                meet user needs and improve experiences.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/handshake.jpg")} alt="Handshake Icon" />
+            <img
+              src={getImageUrl("about/handshake.jpg")}
+              alt="Handshake icon"
+            />
             <div className={styles.aboutItemText}>
-              <h3>Cross-Functional Collaboration</h3>
+              <h3>Team Collaboration</h3>
               <p>
-              I work closely with design, engineering, and business teams to ensure product alignment, drive execution, and foster a shared vision from ideation to launch.
+                I work closely with design, engineering, and business teams to
+                bring ideas to life and deliver meaningful solutions.
               </p>
             </div>
           </li>
