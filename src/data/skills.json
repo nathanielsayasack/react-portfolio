@@ -16,27 +16,19 @@
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/javascript.jpg"
+    "imageSrc": "skills/javascript.png"
   },
   {
     "title": "Azure DevOps",
-    "imageSrc": "skills/azure.png"
+    "imageSrc": "skills/azuredevops.png"
   },
   {
     "title": "Leaflet",
-    "imageSrc": "skills/leaflet.jpg"
+    "imageSrc": "skills/leaflet.png"
   }
 ]
