@@ -26,5 +26,17 @@
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.jpg"
+  },
+  {
+    "title": "Azure DevOps",
+    "imageSrc": "skills/azure.png"
+  },
+  {
+    "title": "Leaflet",
+    "imageSrc": "skills/leaflet.jpg"
   }
 ]
