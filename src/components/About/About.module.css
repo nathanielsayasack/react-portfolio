@@ -2,105 +2,91 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.7);
+  background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
-  padding: 60px 50px;
-  margin-top: 80px;
+  padding: 73px;
+  margin-top: 129px;
   z-index: 1;
-  margin-left: 8%;
-  margin-right: 8%;
-  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.75px;
   text-transform: uppercase;
-  margin-bottom: 40px;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  gap: 40px;
+  align-items: center;
 }
 
 .aboutImage {
-  width: 30%;
-  border-radius: 15px;
-  object-fit: cover;
+  width: 35%;
 }
 
 .aboutItems {
+  color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
 }
 
 .aboutItem {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  background-color: rgba(165, 215, 232, 0.2);
-  border-radius: 15px;
-  padding: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  gap: 20px;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
 }
 
 .aboutItem:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  background-size: 100% 100%;
 }
 
-.aboutItem img {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-}
-
-.aboutItemText h3 {
-  font-size: 22px;
+.aboutItem h3 {
+  font-size: 25px;
   font-weight: 600;
-  margin-bottom: 10px;
 }
 
-.aboutItemText p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--color-text-secondary);
+.aboutItem p {
+  font-size: 25px;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 40px 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .content {
     flex-direction: column;
-    align-items: center;
   }
 
   .aboutImage {
-    width: 80%;
-    margin-bottom: 20px;
+    display: none;
   }
 
   .aboutItems {
-    gap: 20px;
+    margin-top: 29px;
   }
 
-  .aboutItemText h3 {
-    font-size: 20px;
-  }
-
-  .aboutItemText p {
-    font-size: 14px;
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
