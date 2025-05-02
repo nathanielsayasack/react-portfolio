@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Nathaniel</h1>
         <p className={styles.description}>
-        I’m a senior at the University of Washington majoring in Informatics, aspiring to become a product manager passionate about FinTech, innovation, and creating impactful digital solutions.
+        I am a senior at the University of Washington majoring in Informatics, with a strong interest in product management, FinTech, and developing innovative digital solutions that drive meaningful impact.
         </p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>
           Contact Me
