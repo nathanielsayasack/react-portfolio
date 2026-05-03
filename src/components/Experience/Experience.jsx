@@ -11,9 +11,9 @@ export const Experience = () => {
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
-          {skills.map((skill, id) => {
+          {skills.map((skill) => {
             return (
-              <div key={id} className={styles.skill}>
+              <div key={skill.title} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
                   <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                 </div>
@@ -23,9 +23,12 @@ export const Experience = () => {
           })}
         </div>
         <ul className={styles.history}>
-          {history.map((historyItem, id) => {
+          {history.map((historyItem) => {
             return (
-              <li key={id} className={styles.historyItem}>
+              <li
+                key={`${historyItem.organisation}-${historyItem.role}`}
+                className={styles.historyItem}
+              >
                 <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} Logo`}
@@ -34,8 +37,8 @@ export const Experience = () => {
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                    {historyItem.experiences.map((experience) => {
+                      return <li key={experience}>{experience}</li>;
                     })}
                   </ul>
                 </div>

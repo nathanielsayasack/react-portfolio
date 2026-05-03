@@ -12,18 +12,26 @@ export const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
+        <button
+          type="button"
           className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
-          alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
-        />
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
+          aria-controls="primary-menu"
+        >
+          <img
+            src={
+              menuOpen
+                ? getImageUrl("nav/closeIcon.png")
+                : getImageUrl("nav/menuIcon.png")
+            }
+            alt=""
+          />
+        </button>
         <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          id="primary-menu"
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
           onClick={() => setMenuOpen(false)}
         >
           <li>

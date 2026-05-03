@@ -20,6 +20,11 @@
 
 .menuBtn {
   display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
 }
 
 .menu {
